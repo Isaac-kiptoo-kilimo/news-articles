@@ -9,6 +9,8 @@ django-bootstrap4 = "*"
 psycopg2 = "*"
 pillow = "*"
 gunicorn = "*"
+django-heroku = "*"
+whitenoise = "*"
 
 [dev-packages]
 
