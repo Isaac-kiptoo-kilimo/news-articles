@@ -1,0 +1,38 @@
+body{
+  background:  linear-gradient(to right, #120b248f, #04042c9a) , url(https://i.pinimg.com/550x/94/fb/9e/94fb9e94f0db7e3d429df2d9c64527d2.jpg);
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+
+
+}
+
+.navbar{
+  background: linear-gradient(to right, #120b248f, #04042c9a);
+  border-bottom: 1px solid white;
+  font-size: 20px;
+}
+.blog{
+
+  width: 100%;
+   background: var(--select-bg);
+  background: linear-gradient(to right, #120b24d2, #04042ce8), url(https://cdn.pixabay.com/photo/2014/12/21/07/49/fireworks-574739_960_720.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 20px 30px;
+  border-radius: 10px;
+  /* flex-wrap: wrap; */
+  overflow: hidden;
+  margin-top: 20px;
+}
+.blog a{
+  color: white;
+  text-decoration: none;
+}
+.blog a:hover{
+  color: #da2240;
+}

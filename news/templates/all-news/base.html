@@ -1,0 +1,27 @@
+{% load bootstrap4 %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moringa Tribune</title>
+    {% block styles %}
+    {% bootstrap_css %}
+    {% endblock %}
+    {% load static %}
+  <link rel="stylesheet" href="{% static 'css/basenews.css' %}">
+</head>
+<body>
+    {% include "navbar.html" %}
+    
+    {% block content %}
+   
+    {% endblock %}
+    {% block scripts %}
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     {% bootstrap_javascript %}
+    {% endblock %}
+    
+</body>
+</html>
